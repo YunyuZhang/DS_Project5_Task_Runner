@@ -6,7 +6,7 @@ As I continue working on Project 5, I have put together a bash script that autom
 This script will:
 - Copy and paste all necessary input files to Hadoop.
 - Build and run jar files.
-- Process, generate and display output files.
+- Merge, process and display output files.
 
  # How to run the script
  1. Cd to `/home/userID/Project5/Part_1` on the remote server. Copy and paste `task_runner.sh` here. The directory should look like this:
