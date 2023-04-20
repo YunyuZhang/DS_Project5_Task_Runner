@@ -29,4 +29,5 @@ This script will:
 
  # Notes
  Feel free to copy and modify this file for your peronal use.
+ Feel free to make comments or put up a PR to improve this script.
  
