@@ -4,7 +4,7 @@
 As I continue working on Project 5, I have put together a bash script that automates the running of all tasks in Part I.
 
 This script will:
-- Copy and paste necessary input files to Hadoop.
+- Copy and paste all necessary input files to Hadoop.
 - Build and run jar files.
 - Process, generate and display output files.
 
@@ -28,6 +28,6 @@ This script will:
  6. Run the script by running `./task_runner.sh Task[0-7]`. For example, `./task_runner.sh Task0`
 
  # Notes
- Feel free to copy and modify this file for your peronal use.
+ Feel free to copy and modify this file for your personal use. \n
  Feel free to make comments or put up a PR to improve this script.
  
