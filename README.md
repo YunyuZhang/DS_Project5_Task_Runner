@@ -1,7 +1,7 @@
 
 # Project 5 Part 1 Task Runner 
 
-As I continue working on Project 5, I have put together a bash script that automates the running of all tasks in Part I.
+As I continue working on Project 5, I have put together a bash script that automates the execution of all tasks in Part I.
 
 This script will:
 - Copy and paste all necessary input files to Hadoop.
@@ -28,6 +28,6 @@ This script will:
  6. Run the script by running `./task_runner.sh Task[0-7]`. For example, `./task_runner.sh Task0`
 
  # Notes
- Feel free to copy and modify this file for your personal use. \n
+ Feel free to modify the script to meet your specific needs. <br>
  Feel free to make comments or put up a PR to improve this script.
  
