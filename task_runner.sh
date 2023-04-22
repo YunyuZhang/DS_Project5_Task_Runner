@@ -102,11 +102,11 @@ if [ "$task_name" == "Task1" ]; then
     sort -k 2nr ${task_name}Output > $temp_output
     rm ${task_name}Output
     mv $temp_output ${task_name}Output
-elif [ "$task_name" == "Task2" ]; then
-    # take out value and keep the key. https://www.computerhope.com/unix/ucut.htm
-    cut -f1 ${task_name}Output > $temp_output
-    rm ${task_name}Output
-    mv $temp_output ${task_name}Output
+# elif [ "$task_name" == "Task2" ]; then
+#     # take out value and keep the key. https://www.computerhope.com/unix/ucut.htm
+#     cut -f1 ${task_name}Output > $temp_output
+#     rm ${task_name}Output
+#     mv $temp_output ${task_name}Output
 elif [ "$task_name" == "Task7" ]; then
         cp ${task_name}Output ${task_name}Output.kml
 else
@@ -116,3 +116,13 @@ fi
 echo ""
 echo "+++++ Display output ++++++"
 cat "${task_name}"Output
+
+# Clean files in input and output folder 
+echo ""
+echo "+++++ Clean input and output folders ++++++"
+hadoop dfs -rmr /user/$user_id/output/*
+hadoop dfs -rmr /user/$user_id/input/*
+hadoop dfs -ls /user/$user_id/output
+hadoop dfs -ls /user/$user_id/input
+
+
